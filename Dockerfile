@@ -23,6 +23,8 @@ RUN pip install --upgrade pip
 # pip安装依赖
 RUN pip install -r requirements.txt
 
+#暴露端口
 EXPOSE 8080
 
+#进入django后执行操作
 CMD ["python","manage.py","runserver","0.0.0.0:8080"]
