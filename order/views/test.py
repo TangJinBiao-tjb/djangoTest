@@ -7,7 +7,7 @@
 
 from rest_framework.views import APIView
 
-from django_test.util import response
+from djangoTest.util import response
 from order.models import User
 from order.serializers import UserSerializer
 

@@ -5,7 +5,7 @@
 # @Software : PyCharm
 
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_test.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djangoTest.settings")
 import django
 django.setup()
 import random
